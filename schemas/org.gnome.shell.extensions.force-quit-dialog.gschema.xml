@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="force-quit-dialog-extension">
+  <schema path="/org/gnome/shell/extensions/force-quit-dialog/"
+          id="org.gnome.shell.extensions.force-quit-dialog">
+    <key name="show-force-quit-dialog" type="as">
+      <default>["&lt;Ctrl&gt;&lt;Alt&gt;Delete"]</default>
+      <summary>Keybinding that shows the force quit dialog</summary>
+      <description></description>
+    </key>
+  </schema>
+</schemalist>

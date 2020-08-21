@@ -1,0 +1,9 @@
+{
+  "uuid": "@uuid@",
+  "name": "Force Quit Dialog",
+  "description": "A dialog to force quit applications",
+  "shell-version": ["@shell_version@"],
+  "gettext-domain": "force-quit-dialog-extension",
+  "settings-schema": "org.gnome.shell.extensions.force-quit-dialog",
+  "url": "https://gitlab.gnome.org/feaneron/force-quit-dialog-extension"
+}
