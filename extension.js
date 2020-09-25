@@ -27,6 +27,8 @@ const ModalDialog = imports.ui.modalDialog;
 const GNOME_SYSTEM_MONITOR_DESKTOP_ID = 'gnome-system-monitor.desktop';
 const ICON_SIZE = 32;
 
+const _ = imports.gettext.domain('force-quit-dialog-extension').gettext;
+
 const ForceQuitDialogItem = GObject.registerClass({
     Signals: { 'selected': {} },
 }, class ForceQuitDialogItem extends St.BoxLayout {
