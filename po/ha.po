@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-shell package.
+#
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-shell\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-25 22:24+0100\n"
+"PO-Revision-Date: 2020-04-24 13:21+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Hausa (http://www.transifex.com/endless-os/gnome-shell/"
+"language/ha/)\n"
+"Language: ha\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: extension.js:67
+msgid "Quit applications"
+msgstr ""
+
+#: extension.js:68
+msgid ""
+"If an application doesn't respond for a while, select its name and click "
+"Quit Application."
+msgstr ""
+
+#: extension.js:87
+msgid "Cancel"
+msgstr "Soke"
+
+#: extension.js:95
+msgid "System Monitor"
+msgstr ""
+
+#: extension.js:101
+msgid "Quit Application"
+msgstr ""

@@ -67,3 +67,6 @@ if extension_tool.found()
 
   run_target('zip-file', command: command)
 endif
+
+i18n = import('i18n')
+subdir('po')

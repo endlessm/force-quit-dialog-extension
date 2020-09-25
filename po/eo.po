@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-shell package.
+#
+# Translators:
+# Carmen Bianca Bakker <carmen@carmenbianca.eu>, 2018-2019
+# Daniel PUENTES <blatberk@openmailbox.org>, 2015
+# kristjan <kristjan.schmidt@googlemail.com>, 2011-2012,2015-2016,2018
+# Nicolas MAIA < >, 2015
+# Roddy Shuler <roddy@stanfordalumni.org>, 2017
+# Ryan LORTIE <desrt@desrt.ca>, 2013
+# Tiffany Antopolski <tiffany.antopolski@gmail.com>, 2011-2012
+# Tiffany ANTOPOLSKI <tiffany.antopolski@gmail.com>, 2011-2012
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-shell\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-25 22:24+0100\n"
+"PO-Revision-Date: 2020-04-24 13:18+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Esperanto (http://www.transifex.com/endless-os/gnome-shell/"
+"language/eo/)\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: extension.js:67
+msgid "Quit applications"
+msgstr ""
+
+#: extension.js:68
+msgid ""
+"If an application doesn't respond for a while, select its name and click "
+"Quit Application."
+msgstr ""
+
+#: extension.js:87
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: extension.js:95
+msgid "System Monitor"
+msgstr ""
+
+#: extension.js:101
+msgid "Quit Application"
+msgstr ""
