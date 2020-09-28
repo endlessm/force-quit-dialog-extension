@@ -43,7 +43,7 @@ styles = custom_target(
   command: [ sassc, sassc_opts, '@INPUT@', '@OUTPUT@' ],
   depend_files: 'stylesheet.scss',
   install: true,
-  install_dir: join_paths(extensiondir, uuid),
+  install_dir: installdir,
   build_by_default: true)
 
 extension_tool = find_program('gnome-extensions', required: false)
