@@ -16,7 +16,7 @@
  * along with this program; if not, see <http://www.gnu.org/licenses/>.
  */
 
-const { Clutter, Gio, GObject, Meta, Shell, St } = imports.gi;
+const { Clutter, GObject, Meta, Shell, St } = imports.gi;
 
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
