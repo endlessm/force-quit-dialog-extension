@@ -19,7 +19,6 @@
 const { Clutter, GObject, Meta, Shell, St } = imports.gi;
 
 const ExtensionUtils = imports.misc.extensionUtils;
-const Me = ExtensionUtils.getCurrentExtension();
 
 const Dialog = imports.ui.dialog;
 const Main = imports.ui.main;
@@ -28,12 +27,7 @@ const ModalDialog = imports.ui.modalDialog;
 const GNOME_SYSTEM_MONITOR_DESKTOP_ID = 'gnome-system-monitor.desktop';
 const ICON_SIZE = 32;
 
-const Gettext = imports.gettext;
-
-Gettext.textdomain('force-quit-dialog-extension');
-Gettext.bindtextdomain('example', Me.dir.get_child('locale').get_path());
-
-const _ = Gettext.gettext;
+const _ = imports.gettext.domain('force-quit-dialog-extension').gettext;
 
 const ForceQuitDialogItem = GObject.registerClass({
     Signals: { 'selected': {} },
@@ -155,6 +149,10 @@ class ForceQuitDialog extends ModalDialog.ModalDialog {
 });
 
 class Extension {
+    constructor() {
+        ExtensionUtils.initTranslations('force-quit-dialog-extension');
+    }
+
     _showForceQuitDialog() {
         if (!Main.sessionMode.hasOverview)
             return;
