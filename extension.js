@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, see <http://www.gnu.org/licenses/>.
  */
- 
+
 const { Clutter, Gio, GObject, Meta, Shell, St } = imports.gi;
 
 const ExtensionUtils = imports.misc.extensionUtils;
@@ -42,7 +42,7 @@ const ForceQuitDialogItem = GObject.registerClass({
         this.app = app;
 
         this.connect('key-focus-in', () => this.emit('selected'));
-        
+
         const action = new Clutter.ClickAction();
         action.connect('clicked', this.grab_key_focus.bind(this));
         this.add_action(action);
