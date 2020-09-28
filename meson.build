@@ -1,6 +1,6 @@
 project('force-quit-dialog-extension',
   version: '3.37.90',
-  meson_version: '>= 0.40.0'
+  meson_version: '>= 0.50.0'
 )
 
 sources = ['extension.js']
