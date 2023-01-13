@@ -8,20 +8,12 @@ extra_sources = ['COPYING']
 
 uuid = 'force-quit-dialog-extension@endlessm.com'
 
-ver_arr = meson.project_version().split('.')
-if ver_arr[1].to_int().is_even()
-  shell_version = '@0@.@1@'.format(ver_arr[0], ver_arr[1])
-else
-  shell_version = '.'.join(ver_arr)
-endif
-
 datadir = get_option('datadir')
 extensiondir = join_paths(datadir, 'gnome-shell', 'extensions')
 installdir = join_paths(extensiondir, uuid)
 
 metaconf = configuration_data()
 metaconf.set('uuid', uuid)
-metaconf.set('shell_version', shell_version)
 
 meta = [
   configure_file(
