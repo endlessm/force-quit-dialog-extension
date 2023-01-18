@@ -1,5 +1,5 @@
 project('force-quit-dialog-extension',
-  version: '3.38.0',
+  version: '42.0',
   meson_version: '>= 0.50.0'
 )
 
