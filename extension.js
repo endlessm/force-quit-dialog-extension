@@ -132,7 +132,9 @@ class ForceQuitDialog extends ModalDialog.ModalDialog {
 
     _quitApp() {
         const app = this._selectedAppItem.app;
-        app.request_quit();
+        for (let window of app.get_windows()) {
+            window.kill();
+        }
         this.close();
     }
 
