@@ -34,7 +34,7 @@ const ForceQuitDialogItem = GObject.registerClass({
 }, class ForceQuitDialogItem extends St.BoxLayout {
     _init(app) {
         super._init({
-            style_class: 'nm-dialog-item extra-spacing',
+            style_class: 'force-quit-dialog-item',
             can_focus: true,
             reactive: true,
             track_hover: true,
@@ -72,7 +72,7 @@ class ForceQuitDialog extends ModalDialog.ModalDialog {
         this.contentLayout.add_child(content);
 
         const scrollView = new St.ScrollView({
-            style_class: 'nm-dialog-scroll-view',
+            style_class: 'force-quit-dialog-scroll-view',
             hscrollbar_policy: St.PolicyType.NEVER,
             vscrollbar_policy: St.PolicyType.AUTOMATIC,
             overlay_scrollbars: true,
