@@ -1,0 +1,18 @@
+force-quit-dialog-extension (3.38.0-1endless1) eos; urgency=medium
+
+  * Support GNOME 41 and 42
+    https://phabricator.endlessm.com/T33003
+
+ -- João Paulo Rechi Vita <jprvita@endlessos.org>  Fri, 13 Jan 2023 14:49:48 -0500
+
+force-quit-dialog-extension (3.38.0-1) eos; urgency=medium
+
+  * New upstream release
+
+ -- Andre Moreira Magalhaes <andre.magalhaes@endlessos.org>  Tue, 20 Oct 2020 20:43:17 -0300
+
+force-quit-dialog-extension (3.37.90-1) eos; urgency=medium
+
+  * Initial release
+
+ -- Georges Basile Stavracas Neto <georges@endlessos.org>  Fri, 21 Aug 2020 14:55:12 -0300

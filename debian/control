@@ -1,0 +1,20 @@
+Source: force-quit-dialog-extension
+Section: gnome
+Priority: optional
+Maintainer: Endless OS Maintainers <maintainers@endlessos.org>
+Build-Depends:
+ debhelper-compat (= 12),
+ libglib2.0-bin,
+ meson,
+ sassc
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+Homepage: https://github.com/endlessm/force-quit-dialog-extension
+Vcs-Browser: https://github.com/endlessm/force-quit-dialog-extension
+Vcs-Git: https://github.com/endlessm/force-quit-dialog-extension.git
+
+Package: force-quit-dialog-extension
+Architecture: all
+Depends:
+ gnome-shell (>= 43)
+Description: Show a dialog to force quit applications
