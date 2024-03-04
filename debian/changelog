@@ -1,3 +1,10 @@
+force-quit-dialog-extension (43.0-1) eos; urgency=medium
+
+  * Support GNOME 43
+    https://phabricator.endlessm.com/T35079
+
+ -- Dylan McCall <dylan@endlessos.org>  Mon, 04 Mar 2024 11:03:43 -0800
+
 force-quit-dialog-extension (3.38.0-1endless1) eos; urgency=medium
 
   * Support GNOME 41 and 42
