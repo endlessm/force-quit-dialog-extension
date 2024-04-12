@@ -1,51 +1,46 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-shell package.
-#
+# This file is distributed under the same license as the force-quit-dialog-extension package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 # Translators:
-# Chandan kumar <chandankumar.093047@gmail.com>, 2012
-# Chandan kumar <chandankumar.093047@gmail.com>, 2012
-# e2f_in_c3 <e2f_in_c3@outlook.com>, 2016
-# 25c299dc371da5bff014f86901f492aa, 2016-2018
-# rajesh <rajeshkajha@yahoo.com>, 2012-2014
-# Rajesh <rranjan>, 2011
-# Roddy Shuler <roddy@stanfordalumni.org>, 2016-2018
-# Will Thompson <wjt@endlessm.com>, 2019-2020
+# Will Thompson <wjt@endlessos.org>, 2024
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell\n"
+"Project-Id-Version: force-quit-dialog-extension\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-25 22:24+0100\n"
-"PO-Revision-Date: 2020-04-18 10:47+0000\n"
-"Last-Translator: Will Thompson <wjt@endlessm.com>\n"
-"Language-Team: Hindi (http://www.transifex.com/endless-os/gnome-shell/"
-"language/hi/)\n"
-"Language: hi\n"
+"POT-Creation-Date: 2024-04-12 14:18+0000\n"
+"PO-Revision-Date: 2024-03-05 12:57+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>, 2024\n"
+"Language-Team: Hindi (https://app.transifex.com/endless-os/teams/9016/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: extension.js:67
+#: extension.js:69
 msgid "Quit applications"
 msgstr "ऐप्लिकेशन से बाहर निकलें"
 
-#: extension.js:68
+#: extension.js:70
 msgid ""
 "If an application doesn't respond for a while, select its name and click "
 "Quit Application."
 msgstr ""
-"यदि कोई ऐप्लिकेशन थोड़े समय के लिए रेस्पॉन्ड न करें, तो उसका नाम चुनकर क्विट ऐपलिकेशन पर "
-"क्लिक करें।"
+"यदि कोई ऐप्लिकेशन थोड़े समय के लिए रेस्पॉन्ड न करें, तो उसका नाम चुनकर क्विट "
+"ऐपलिकेशन पर क्लिक करें।"
 
-#: extension.js:87
+#: extension.js:89
 msgid "Cancel"
 msgstr "रद्द करें"
 
-#: extension.js:95
+#: extension.js:97
 msgid "System Monitor"
 msgstr "सिस्टम मॉनिटर"
 
-#: extension.js:101
+#: extension.js:103
 msgid "Quit Application"
 msgstr "ऐप्लिकेशन से बाहर निकलें"

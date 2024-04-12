@@ -1,41 +1,44 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-shell package.
-#
+# This file is distributed under the same license as the force-quit-dialog-extension package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 # Translators:
+# Will Thompson <wjt@endlessos.org>, 2024
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-shell\n"
+"Project-Id-Version: force-quit-dialog-extension\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-25 22:24+0100\n"
-"PO-Revision-Date: 2020-04-24 13:20+0000\n"
-"Last-Translator: Roddy Shuler <roddy@stanfordalumni.org>\n"
-"Language-Team: English (Canada) (http://www.transifex.com/endless-os/gnome-"
-"shell/language/en_CA/)\n"
-"Language: en_CA\n"
+"POT-Creation-Date: 2024-04-12 14:18+0000\n"
+"PO-Revision-Date: 2024-03-05 12:57+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>, 2024\n"
+"Language-Team: English (Canada) (https://app.transifex.com/endless-os/teams/9016/en_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: en_CA\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: extension.js:67
+#: extension.js:69
 msgid "Quit applications"
 msgstr ""
 
-#: extension.js:68
+#: extension.js:70
 msgid ""
 "If an application doesn't respond for a while, select its name and click "
 "Quit Application."
 msgstr ""
 
-#: extension.js:87
+#: extension.js:89
 msgid "Cancel"
 msgstr "Cancel"
 
-#: extension.js:95
+#: extension.js:97
 msgid "System Monitor"
 msgstr ""
 
-#: extension.js:101
+#: extension.js:103
 msgid "Quit Application"
 msgstr ""
