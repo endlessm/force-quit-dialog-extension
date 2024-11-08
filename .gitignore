@@ -4,3 +4,8 @@ metadata.json
 _build/
 *.css
 *.pot
+debian/*.substvars
+debian/.debhelper
+debian/debhelper-build-stamp
+debian/files
+debian/force-quit-dialog-extension
