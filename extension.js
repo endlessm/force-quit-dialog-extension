@@ -66,8 +66,8 @@ class ForceQuitDialog extends ModalDialog.ModalDialog {
         super._init({ styleClass: 'force-quit-dialog' });
 
         const content = new Dialog.MessageDialogContent({
-            title: _('Quit applications'),
-            description: _("If an application doesn't respond for a while, select its name and click Quit Application."),
+            title: _('Force an App to Quit'),
+            description: _("If an app isn't responding or cannot otherwise be closed, select the app's name and choose Force Quit. Any unsaved data will be lost."),
         });
         this.contentLayout.add_child(content);
 
@@ -100,7 +100,7 @@ class ForceQuitDialog extends ModalDialog.ModalDialog {
 
         this._quitButton = this.addButton({
             action: this._quitApp.bind(this),
-            label: _('Quit Application'),
+            label: _('Force Quit'),
             key: Clutter.Return,
         });
 
