@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: force-quit-dialog-extension\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-12 14:18+0000\n"
+"POT-Creation-Date: 2024-11-15 07:42+0000\n"
 "PO-Revision-Date: 2024-03-05 12:57+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessos.org>, 2024\n"
 "Language-Team: Malay (https://app.transifex.com/endless-os/teams/9016/ms/)\n"
@@ -22,16 +22,14 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: extension.js:69
-msgid "Quit applications"
-msgstr "Tutup aplikasi"
+msgid "Force an App to Quit"
+msgstr ""
 
 #: extension.js:70
 msgid ""
-"If an application doesn't respond for a while, select its name and click "
-"Quit Application."
+"If an app isn't responding or cannot otherwise be closed, select the app's "
+"name and choose Force Quit. Any unsaved data will be lost."
 msgstr ""
-"Jika satu aplikasi tidak memberi gerak balas buat seketika, pilih namanya "
-"kemudian klik Tutup Aplikasi."
 
 #: extension.js:89
 msgid "Cancel"
@@ -42,5 +40,5 @@ msgid "System Monitor"
 msgstr "Pemantau Sistem"
 
 #: extension.js:103
-msgid "Quit Application"
-msgstr "Tutup Aplikasi"
+msgid "Force Quit"
+msgstr ""
